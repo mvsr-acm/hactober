@@ -71,22 +71,19 @@ Once you have modified existing files or added new files to the project, you can
 
 ##### ` git add -A ` or ` git add . `
 
-![screenshot stagingContents](https://user-images.githubusercontent.com/37223446/47253493-417e7680-d471-11e8-83cf-a4f969da5131.png)
+![screenshot stagingContents](https://firebasestorage.googleapis.com/v0/b/acm-boo-boo.appspot.com/o/hacktoberfest%2F1601306101680?alt=media&token=a7a757bd-18ba-4980-b23a-39707174a21f)
 
 
 Next, we’ll want to record the changes that we made to the repository with the git commit command.
 
 *The commit message is an important aspect of your code contribution; it helps the other contributors fully understand the change you have made, why you made it, and how significant it is. Additionally, commit messages provide a historical record of the changes for the project at large, helping future contributors along the way.*
 
-
-![screenshot 155](https://user-images.githubusercontent.com/37223446/47235390-87e2bf80-d3f6-11e8-81c0-e01b7463d038.png)
-
 If you have a very short message, you can record that with the -m flag and the message in quotes:
 
 ###### ` Example: `
 ##### ` git commit -m "Updated Readme.md" `
 
-![screenshot 156](https://user-images.githubusercontent.com/37223446/47235961-3fc49c80-d3f8-11e8-906f-a1cfa7a15726.png)
+![screenshot commit](https://firebasestorage.googleapis.com/v0/b/acm-boo-boo.appspot.com/o/hacktoberfest%2F1601306274417?alt=media&token=c348a767-3a31-485f-94c6-d693fa80fd6c)
 
 
 ###### At this point you can use the git push command to push the changes to the current branch of your forked repository:
@@ -103,10 +100,10 @@ We’ll first go over configuring a remote for the fork, then syncing the fork.
 
 Next up, you’ll have to specify a new remote upstream repository for us to sync with the fork. This will be the original repository that you forked from. you’ll have to do this with the git remote add command.
 
-##### ` git remote add upstream https://github.com/acmbvp/Hacktoberfest.git `
+##### ` git remote add upstream https://github.com/mvsr-acm/hactober.git `
 
 
-![screenshot 74](https://user-images.githubusercontent.com/37223446/47235672-5f0efa00-d3f7-11e8-9e45-1af02d8b969b.png)
+![screenshot push](https://firebasestorage.googleapis.com/v0/b/acm-boo-boo.appspot.com/o/hacktoberfest%2F1601307163225?alt=media&token=c4ee1a77-24a4-44a6-bcce-2f2efda740b0)
 
 In this example, // upstream // is the shortname we have supplied for the remote repository since in terms of Git, “upstream” refers to the repository that you cloned from. If you want to add a remote pointer to the repository of a collaborator, you may want to provide that collaborator’s username or a shortened nickname for the shortname.
 
