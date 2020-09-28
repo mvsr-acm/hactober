@@ -9,7 +9,7 @@
 ###### Link to register: https://hacktoberfest.digitalocean.com/
 Click on "Start Hacking" and add your GitHub account.
 
-![Screenshot-Hactober](https://firebasestorage.googleapis.com/v0/b/acm-boo-boo.appspot.com/o/eps%2Fhf2020-homepage.jpg?alt=media&token=e00c199c-635f-46e7-b9e3-8b3cbaa019ed)
+![screenshot Hactober](https://firebasestorage.googleapis.com/v0/b/acm-boo-boo.appspot.com/o/eps%2Fhf2020-homepage.jpg?alt=media&token=e00c199c-635f-46e7-b9e3-8b3cbaa019ed)
 
 ### 2. Fork this Repository
 ###### You can fork this repository on GitHub by navigating at the top of this repository.
@@ -18,7 +18,7 @@ GitHub repository URLs will reference both the username associated with the owne
 
 https://github.com/mvsr-acm/hactober
 
-![screenshot-fork](https://firebasestorage.googleapis.com/v0/b/acm-boo-boo.appspot.com/o/hacktoberfest%2F1601225686807?alt=media&token=a2f2034d-8c1b-4d3a-a8c2-175c5582b7c2)
+![screenshot fork](https://firebasestorage.googleapis.com/v0/b/acm-boo-boo.appspot.com/o/hacktoberfest%2F1601225686807?alt=media&token=a2f2034d-8c1b-4d3a-a8c2-175c5582b7c2)
 When you’re on the main page of a repository, you’ll see a button to “Fork” the repository on the upper right-hand side of the page, underneath your user icon.
 
 ### 3. Clone the Repository
@@ -61,16 +61,17 @@ Once you enter the git `checkout` command, you will receive the following output
 ######  `Output:`
 #####  `Switched to branch 'new-branch' `
 
+![screenshot branchSwitch](https://firebasestorage.googleapis.com/v0/b/acm-boo-boo.appspot.com/o/hacktoberfest%2F1601305773952?alt=media&token=1219963a-9b35-48d3-83e0-76c8b63b839e)
 
 At this point, you can now modify existing files or add new files to the project on your own branch.
 
 #### Make Changes Locally
 
-Once you have modified existing files or added new files to the project, you can add them to your local repository, which you can do with the git add command. Let’s add the -A flag to add all changes that we have made:
+Once you have modified existing files or added new files to the project, you can stage them in your local repository, which you can do with the git add command. Let’s add the -A flag to stage all changes that we have made:
 
 ##### ` git add -A ` or ` git add . `
 
-![screenshot 155](https://user-images.githubusercontent.com/37223446/47253493-417e7680-d471-11e8-83cf-a4f969da5131.png)
+![screenshot stagingContents](https://user-images.githubusercontent.com/37223446/47253493-417e7680-d471-11e8-83cf-a4f969da5131.png)
 
 
 Next, we’ll want to record the changes that we made to the repository with the git commit command.
