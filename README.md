@@ -2,7 +2,7 @@
 
 ###### This repository is excluded from Hacktoberfest in favour of promoting quality open source contributions. So pull requests here won't contribute towards your Hacktoberfest progress. The sole purpose of this repository is to help beginners learn Git & GitHub through easy first contribution, and we therefore are still welcome pull requests here.
 
-##Resources:
+## Resources:
 * [Git & GitHub Tutorial](https://www.youtube.com/watch?v=SWYqp7iY_Tc&t=57s)
 * [Virtual Git Cheat Sheet](https://ndpsoftware.com/git-cheatsheet.html)
 * [Git Docs](https://git-scm.com/docs)
